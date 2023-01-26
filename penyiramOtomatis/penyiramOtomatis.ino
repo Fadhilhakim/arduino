@@ -8,10 +8,10 @@ void loop() {
   digitalWrite(ledPin ,LOW);
   digitalWrite(machinePin ,HIGH);
 
-  delay(10000); 
+  delay(10000); // waktu berhenti
             
   digitalWrite(ledPin ,HIGH);
   digitalWrite(machinePin ,LOW);
 
-  delay(20000);
+  delay(20000); // waktu menyiram
 }
